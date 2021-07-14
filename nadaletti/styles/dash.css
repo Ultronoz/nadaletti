@@ -1,0 +1,62 @@
+#linha {
+    background-image: linear-gradient(to right, rgb(15, 15, 15), rgb(15, 15, 15),  rgb(77, 88, 255));
+
+    height: 15vh;
+    display: inline-flex;
+}
+#h3 {
+    color: antiquewhite;
+    margin-top: 4vh;
+    margin-left: 10px;
+    padding: 0px;
+    float: right;
+    height: 50px;
+}
+#container-usu {
+    display: block;
+}
+#menu {
+    background-color: #292929;
+    height: 85vh;
+}
+#style-but {
+    margin-top: 3vh;
+    border-radius: 5px;
+    background-color: #292929;
+    color: antiquewhite;
+}
+#style-but:hover {
+    background-color: antiquewhite;
+    color: #1c1c1c;
+}
+#img-logo {
+    border-radius: 50%;
+    max-width: 50px;
+    margin-top: 3vh;
+    
+    height: 50px;
+} 
+#img-usu {
+    border-radius: 50%;
+    max-width: 50px;
+    margin-top: 3vh;
+    float: right;
+    height: 50px;
+}
+#img-usu:hover {
+    border: 2px solid whitesmoke;
+}
+#menu-dash {
+    float: right;
+    margin-left: 25px;
+    margin-top: 3vh;
+}
+#espaco {
+    height: 12vh;
+}
+#header {
+    display: none;
+}
+#menu-menu {
+    display: none;
+}

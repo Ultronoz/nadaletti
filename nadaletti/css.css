@@ -1,0 +1,152 @@
+#hero-area {
+    background-color: #1C1C1C;
+}
+
+#body {
+    background-color: #1C1C1C;
+}
+#container-menu {
+    background-color: #1C1C1C;
+    
+    height: 10vh;
+}
+#jumbo {
+    
+    height: 90vh;
+}
+#titulo {
+    font-family: 'Aldrich', sans-serif;
+    font-weight: 900;
+    background-image: linear-gradient(to left, rgb(255, 255, 255), rgb(175, 175, 175), rgb(175, 175, 175));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#subtitulo {
+    color: whitesmoke;
+}
+
+#info {
+    text-align: center;
+}
+
+#but-action {
+    background-color: transparent;
+    border: 2px solid rgb(197, 189, 189);
+    border-radius: 10px;
+}
+
+
+@media screen and (min-width: 600px) {
+    #container-pc {
+        width: 100%;
+    }
+    
+    #jumbo {
+        padding: 0px;
+        background-color: #1C1C1C;
+        background-image: url(./src/img-f.jpg);
+       height: 100vh;
+       
+    }
+    #container-pc {
+        margin: 0;
+        
+    }
+    #subtitulo {
+        color: aliceblue;
+    }
+    #but-action {
+        display: none;
+    }
+   #body {
+       background-color: whitesmoke;
+   }
+   .menu-preto{
+       display: none;
+   }
+   .menu-branco {
+       display: block;
+   }
+   #seta {
+       margin-top: 0px;
+       width: 100%;
+       
+   }
+   #seta:hover {
+    margin-top: 50px;
+    transition: 5s;
+      
+   }
+   #container-card {
+       display: inline-flex;
+
+   }
+   #card {
+    width: 30%;
+    margin: 25px;
+}
+   
+    #div-info-text {
+        
+        background-image: linear-gradient(to left, rgb(252, 78, 4), rgb(252, 4, 4));
+        height: 30vh;
+    }
+    #div-info-text2 {
+        margin-top: 5vh;
+    }
+    #skill {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #div-skill {
+        background-color: #1C1C1C;
+        width: 90%;
+        margin-top: 10vh;
+        border-radius: 10px;;
+        padding-left: 5%;
+        height: 30vh;
+        
+    }
+    #color-footer {
+        background-color: #1C1C1C;
+        height: 300px;
+        margin-top: 10vh;
+        padding: 0px;
+        position: absolute;
+        z-index: -2;
+    }
+    #container-footer {
+        padding: 0px;
+        margin-top: 10vh;
+    }
+    #text-footer {
+        margin-top: 10vh;
+    }
+    #img-footer {
+        min-width: 400px;
+        max-width: 100%;
+        border-radius: 6px;;
+    }
+    #container-drop {
+        z-index: 20;
+        
+        position: absolute;
+    }
+    
+
+}
+@media screen and (max-width: 900px) {
+    #linha-footer {
+        display: block;
+        
+    }
+    #back-footer {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #text-footer {
+        padding-top: 10vh;
+        margin: 0 auto;
+    }
+}

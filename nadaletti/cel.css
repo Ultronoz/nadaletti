@@ -1,0 +1,63 @@
+
+#icon-menu {
+    float: right;
+    margin-top: 1vh;
+    
+    
+}
+#menu-drop {
+   
+    height: 90vh;
+    background-color: darkslategrey;
+}
+#img-logo {
+    margin-top: 1vh;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+#lista-menu {
+    position: absolute;
+    right: 0;
+    padding: 0px;
+    display: none;
+}
+#drop-li li {
+    background-color: #111111;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+
+    #titulo {
+        margin-top: 15vh;
+        font-size: 50px;
+        text-align: center;
+    }
+    .menu-preto {
+        display: none;
+    }
+    .menu-branci {
+        display: block;
+    }
+    #but-action {
+        text-align: center;
+    }
+    #subtitulo {
+        text-align: center;
+    }
+    #seta {
+        display: none;
+    }
+    #card {
+        width: 90%;
+        margin: 25px;
+    }
+    #container-info {
+        background-color: #ffffff;
+        height: 60vh;
+        margin-top: 20vh;
+        
+        width: 100%;
+    }
+}
